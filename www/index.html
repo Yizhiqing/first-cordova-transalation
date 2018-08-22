@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <title>My Cordova App</title>
+</head>
+
+<body>
+    <div id="tapme">Tap me</div>
+    <script type="text/javascript" src="js/index.js"></script>
+    <!-- 如果你需要使用有道翻译就需要先引用 md5.min.js -->
+    <script src="js/md5.min.js"></script>
+    <!-- 然后引用 tjs.browser.js -->
+    <script src="js/tjs.browser.js"></script>
+    <!-- 然后你就可以从全局变量 tjs 中获取翻译对象了 -->
+    <script>const { youdao, baidu, google } = window.tjs</script>
+</body>
+
+</html>
